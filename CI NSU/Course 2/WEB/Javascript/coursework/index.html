@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Большой бизнес 2.1</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css"/>
+	</head>
+	<body>
+		<canvas width="1000" height="528,5" id="canvas1"></canvas>
+		<br/>
+		<script src="gamescript.js"></script>
+		
+		<form id="button_form">
+			<button id="startbutton" type="button" class="block" onClick="initialLoad()">Новая игра</button>
+			<button id="turnbutton" type="button" class="block">Бросок</button>
+		</form>
+		<div class="charactersheet">
+			<div class="charactersheet">
+				<div>
+					<p id="p1account"></p>
+					<p id="p1status"></p>
+				</div>
+				<div>
+					<p id="p2account"></p>
+					<p id="p2status"></p>
+				</div>
+				<div>
+					<p id="p3account"></p>
+					<p id="p3status"></p>
+				</div>
+			</div>
+			<div id="buyButtonDiv">
+			</div>
+		</div>
+	</body>
+</html>
